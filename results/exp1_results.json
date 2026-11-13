@@ -1,0 +1,116 @@
+{
+  "n_support": 256,
+  "convex_order_holds": true,
+  "reference_independent_gaussian_price_bp": 429.6975077644638,
+  "mot_upper_bound_bp": 537.543930238043,
+  "ot_upper_bound_bp": 1243.1546309141324,
+  "max_lower_upper_gap_bp": 0.0008579239769990199,
+  "paper_tolerance_bp": 2.2e-07,
+  "eta_grid_runtime_seconds": 53.64674997329712,
+  "rows": [
+    {
+      "eta": 0.0001,
+      "upper_bound_bp": 537.750163537637,
+      "upper_estimate_bp": 537.7503969573557,
+      "lower_upper_gap_bp": 0.00023341971862322897,
+      "shares_traded_per_claim": 1.036930049075444,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.0003,
+      "upper_bound_bp": 538.1618163745196,
+      "upper_estimate_bp": 538.1626742984967,
+      "lower_upper_gap_bp": 0.0008579239769990199,
+      "shares_traded_per_claim": 1.0357676423611892,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.001,
+      "upper_bound_bp": 539.593601724471,
+      "upper_estimate_bp": 539.5938174922071,
+      "lower_upper_gap_bp": 0.0002157677361780408,
+      "shares_traded_per_claim": 1.0302289565484721,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.003,
+      "upper_bound_bp": 543.5969478953257,
+      "upper_estimate_bp": 543.5969636082717,
+      "lower_upper_gap_bp": 1.571294601376838e-05,
+      "shares_traded_per_claim": 1.0138718999629468,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.01,
+      "upper_bound_bp": 556.7648893970561,
+      "upper_estimate_bp": 556.7649029412117,
+      "lower_upper_gap_bp": 1.3544155588740558e-05,
+      "shares_traded_per_claim": 0.9674532168410812,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.03,
+      "upper_bound_bp": 589.1440264911613,
+      "upper_estimate_bp": 589.1440224627942,
+      "lower_upper_gap_bp": 4.028367084352169e-06,
+      "shares_traded_per_claim": 0.8748961376108079,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.1,
+      "upper_bound_bp": 671.9345192753844,
+      "upper_estimate_bp": 671.93451517881,
+      "lower_upper_gap_bp": 4.096574468537284e-06,
+      "shares_traded_per_claim": 0.7154179521221858,
+      "status": "optimal"
+    },
+    {
+      "eta": 0.3,
+      "upper_bound_bp": 817.4854154009184,
+      "upper_estimate_bp": 817.4854158888073,
+      "lower_upper_gap_bp": 4.878888959503058e-07,
+      "shares_traded_per_claim": 0.5478117648386773,
+      "status": "optimal"
+    },
+    {
+      "eta": 1.0,
+      "upper_bound_bp": 1038.1108637730676,
+      "upper_estimate_bp": 1038.110865621782,
+      "lower_upper_gap_bp": 1.8487145148071704e-06,
+      "shares_traded_per_claim": 0.3094406891033441,
+      "status": "optimal"
+    },
+    {
+      "eta": 3.0,
+      "upper_bound_bp": 1160.0229405509274,
+      "upper_estimate_bp": 1160.0229433438944,
+      "lower_upper_gap_bp": 2.7929671075899165e-06,
+      "shares_traded_per_claim": 0.1301478784202101,
+      "status": "optimal"
+    },
+    {
+      "eta": 10.0,
+      "upper_bound_bp": 1215.022349272884,
+      "upper_estimate_bp": 1215.022354757333,
+      "lower_upper_gap_bp": 5.484449144832482e-06,
+      "shares_traded_per_claim": 0.044455177323984976,
+      "status": "optimal"
+    },
+    {
+      "eta": 30.0,
+      "upper_bound_bp": 1233.221381393241,
+      "upper_estimate_bp": 1233.2213872422742,
+      "lower_upper_gap_bp": 5.849033202220966e-06,
+      "shares_traded_per_claim": 0.015732164896257568,
+      "status": "optimal"
+    },
+    {
+      "eta": 100.0,
+      "upper_bound_bp": 1240.081383001676,
+      "upper_estimate_bp": 1240.0813896794918,
+      "lower_upper_gap_bp": 6.677815939104548e-06,
+      "shares_traded_per_claim": 0.004859807241497208,
+      "status": "optimal"
+    }
+  ]
+}

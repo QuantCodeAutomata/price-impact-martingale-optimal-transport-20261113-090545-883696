@@ -61,8 +61,10 @@ EXP3_ASSET1_INTERVAL_T2 = (-3.0, 3.0)   # asset 1 support interval at T2 (Sec. 5
 EXP3_ASSET2_INTERVAL_T1 = (-3.0, 3.0)   # asset 2 support interval at T1 (Sec. 5.2)
 EXP3_ASSET2_INTERVAL_T2 = (-3.0, 3.0)   # asset 2 support interval at T2 (Sec. 5.2)
 EXP3_ETA_COMMON_GRID = np.array([1e-3, 1e-2, 1e-1, 1e0, 1e1])   # common eta1=eta2 grid (Sec. 5.2)
-EXP3_ETA_TOTAL = 0.11               # fixed total eta1+eta2 for the interchange study (Sec. 5.2, methodology)
-# Asymmetric (eta1, eta2) pairs at fixed total 0.11 (methodology)
+EXP3_ETA_TOTAL = 0.11               # fixed total eta1+eta2 for the (0.1,0.01)/(0.01,0.1) interchange pair (Fig. 3 caption)
+# Four (eta1, eta2) pairs shown in Fig. 3's right panel: the middle two share
+# the fixed total 0.11 (interchange study), the outer two match the common-eta
+# curve at eta=0.01 and eta=0.1 (Sec. 5.2)
 EXP3_ETA_PAIRS = ((0.01, 0.01), (0.1, 0.01), (0.01, 0.1), (0.1, 0.1))
 EXP3_UPPER_LOWER_TOL = 8.1e-6       # paper's reported lower/upper agreement, payoff units (methodology)
 

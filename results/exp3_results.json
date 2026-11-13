@@ -1,0 +1,106 @@
+{
+  "mot_upper_bound": 1.3764022440099761,
+  "ot_upper_bound": 1.5000000001112106,
+  "mot_status": "optimal",
+  "ot_status": "optimal",
+  "max_lower_upper_gap": 7.575533202297535e-06,
+  "paper_tolerance": 8.1e-06,
+  "common_eta_rows": [
+    {
+      "eta": 0.001,
+      "value_lower": 1.3807994927707883,
+      "value_upper": 1.3807995043263057,
+      "midpoint": 1.380799498548547,
+      "gap": 1.1555517431816043e-08,
+      "shares_traded_1": 0.42141540563985314,
+      "shares_traded_2": 5.5000725114799,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta": 0.01,
+      "value_lower": 1.4141718798943412,
+      "value_upper": 1.4141721806553806,
+      "midpoint": 1.414172030274861,
+      "gap": 3.007610394067939e-07,
+      "shares_traded_1": 0.31448887702925,
+      "shares_traded_2": 3.730769553007533,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta": 0.1,
+      "value_lower": 1.455345294995818,
+      "value_upper": 1.4553462500638918,
+      "midpoint": 1.455345772529855,
+      "gap": 9.55068073738019e-07,
+      "shares_traded_1": 0.23179160771002294,
+      "shares_traded_2": 1.0663815138353925,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta": 1.0,
+      "value_lower": 1.4936735199284228,
+      "value_upper": 1.493681095461625,
+      "midpoint": 1.493677307695024,
+      "gap": 7.575533202297535e-06,
+      "shares_traded_1": 0.05056527007953941,
+      "shares_traded_2": 0.21917456231367086,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta": 10.0,
+      "value_lower": 1.4993678213668196,
+      "value_upper": 1.499368050250255,
+      "midpoint": 1.4993679358085372,
+      "gap": 2.288834355379521e-07,
+      "shares_traded_1": 0.005056625466475944,
+      "shares_traded_2": 0.021912076278641952,
+      "status": "optimal_inaccurate"
+    }
+  ],
+  "asymmetric_pair_rows": [
+    {
+      "eta1": 0.01,
+      "eta2": 0.01,
+      "value_lower": 1.4141718798943412,
+      "value_upper": 1.4141721806553806,
+      "midpoint": 1.414172030274861,
+      "gap": 3.007610394067939e-07,
+      "shares_traded_1": 0.31448887702925,
+      "shares_traded_2": 3.730769553007533,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta1": 0.1,
+      "eta2": 0.01,
+      "value_lower": 1.415421501966802,
+      "value_upper": 1.4154218822268472,
+      "midpoint": 1.4154216920968246,
+      "gap": 3.80260045229619e-07,
+      "shares_traded_1": 0.3144672680515582,
+      "shares_traded_2": 3.730507511217551,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta1": 0.01,
+      "eta2": 0.1,
+      "value_lower": 1.4547364519909673,
+      "value_upper": 1.4547372751769116,
+      "midpoint": 1.4547368635839395,
+      "gap": 8.231859442986433e-07,
+      "shares_traded_1": 0.2318995235874726,
+      "shares_traded_2": 1.0686017685307483,
+      "status": "optimal_inaccurate"
+    },
+    {
+      "eta1": 0.1,
+      "eta2": 0.1,
+      "value_lower": 1.455345294995818,
+      "value_upper": 1.4553462500638918,
+      "midpoint": 1.455345772529855,
+      "gap": 9.55068073738019e-07,
+      "shares_traded_1": 0.23179160771002294,
+      "shares_traded_2": 1.0663815138353925,
+      "status": "optimal_inaccurate"
+    }
+  ]
+}

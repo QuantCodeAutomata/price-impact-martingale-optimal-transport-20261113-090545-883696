@@ -55,7 +55,9 @@ def run() -> dict:
 
     pair_rows = []
     for eta1, eta2 in config.EXP3_ETA_PAIRS:
-        assert abs((eta1 + eta2) - config.EXP3_ETA_TOTAL) < 1e-9, "pair must sum to ETA_TOTAL"
+        # Only the (0.1, 0.01) and (0.01, 0.1) pairs share the fixed total
+        # eta1+eta2=0.11 (Fig. 3 caption); (0.01, 0.01) and (0.1, 0.1) are the
+        # matching points on the common-eta curve, included for comparison.
         res = solve_basket_pimot(marg, eta1, eta2, solver=config.QP_SOLVER,
                                   solver_tol=config.QP_SOLVER_TOL)
         pair_rows.append({

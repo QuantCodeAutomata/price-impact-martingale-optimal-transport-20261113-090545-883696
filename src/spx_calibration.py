@@ -15,7 +15,7 @@ Two steps, in the order given by Appendix A.2:
 
 Custom implementation of the paper's calibration LPs (no portfolio/calibration
 library implements this two-stage, convex-order-constrained option fit); cvxpy
-is used as the paper's implementation notes specify.
+is used as the convex solver.
 """
 
 from __future__ import annotations

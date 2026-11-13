@@ -21,7 +21,8 @@ exp/        one script per experiment (exp1.py, exp2.py, exp3.py), calling
             only the public functions in src/
 data/       data_loader.py — Massive REST option-chain snapshots for exp2;
             experiments 1 and 3 need no market data
-tests/      pytest unit tests of src/ components (synthetic/small fixtures)
+tests/      pytest unit tests of src/ components (synthetic/small fixtures,
+            including a synthetic option chain for spx_calibration.py)
 results/    RESULTS.md plus every JSON/CSV/PNG written by the experiments
 ```
 
